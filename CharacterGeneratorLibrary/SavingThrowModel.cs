@@ -12,5 +12,6 @@ namespace CharacterGeneratorLibrary
         public AttributeModel Attribute { get; set; } = new AttributeModel();
         public bool Advantage { get; set; }
         public string Special { get; set; }
+        public bool Proficient { get; set; }
     }
 }

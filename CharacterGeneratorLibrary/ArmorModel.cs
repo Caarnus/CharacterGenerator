@@ -18,5 +18,6 @@ namespace CharacterGeneratorLibrary
         public decimal Weight { get; set; }
         public int DonTime { get; set; }
         public int DoffTime { get; set; }
+        public bool Proficient { get; set; }
     }
 }

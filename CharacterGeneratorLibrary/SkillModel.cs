@@ -12,5 +12,6 @@ namespace CharacterGeneratorLibrary
         public string GovenringAttrib { get; set; }
         public bool Advantage { get; set; }
         public string Special { get; set; }
+        public bool Proficient { get; set; }
     }
 }

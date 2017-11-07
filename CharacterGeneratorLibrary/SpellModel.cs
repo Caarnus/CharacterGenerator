@@ -24,5 +24,6 @@ namespace CharacterGeneratorLibrary
         public bool Reaction { get; set; }
         public string Description { get; set; }
         public int LevelReq { get; set; }
+        public bool Prepared { get; set; }
     }
 }

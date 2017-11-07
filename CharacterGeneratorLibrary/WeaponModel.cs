@@ -28,5 +28,6 @@ namespace CharacterGeneratorLibrary
         public string Price { get; set; }
         public decimal Weight { get; set; }
         public bool Silvered { get; set; }
+        public bool Proficient { get; set; }
     }
 }

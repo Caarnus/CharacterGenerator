@@ -14,5 +14,6 @@ namespace CharacterGeneratorLibrary
         public decimal Weight { get; set; }
         public bool Advantage { get; set; }
         public string Special { get; set; }
+        public bool Proficient { get; set; }
     }
 }

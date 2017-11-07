@@ -41,9 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbilityScoreImprovementModel.cs" />
+    <Compile Include="AlignmentModel.cs" />
     <Compile Include="ArchetypeModel.cs" />
     <Compile Include="ArmorModel.cs" />
     <Compile Include="AttributeModel.cs" />
+    <Compile Include="BackgroundModel.cs" />
+    <Compile Include="CharacterModel.cs" />
+    <Compile Include="ClassLevelModel.cs" />
     <Compile Include="ClassModel.cs" />
     <Compile Include="DamageModel.cs" />
     <Compile Include="EquipmentModel.cs" />
