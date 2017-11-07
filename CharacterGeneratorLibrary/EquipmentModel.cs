@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class EquipmentModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public int Cost { get; set; }
         public decimal WeightPerUnit { get; set; }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace CharacterGeneratorLibrary
 {
-    public class DamageModel
+    public class DamageTypeModel
     {
-        public int DamageId { get; set; }
         public string DamageType { get; set; }
-        public bool Magic { get; set; }
     }
 }

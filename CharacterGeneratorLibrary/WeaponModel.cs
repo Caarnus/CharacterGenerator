@@ -23,9 +23,9 @@ namespace CharacterGeneratorLibrary
         public bool Thrown { get; set; }
         public bool TwoHanded { get; set; }
         public bool Versatile { get; set; }
-        public DamageModel Damage { get; set; } = new DamageModel();
-        public DamageModel VersatileDamage { get; set; } = new DamageModel();
-        public string Price { get; set; }
+        public AttackModel Damage { get; set; } = new AttackModel();
+        public AttackModel VersatileDamage { get; set; } = new AttackModel();
+        public int Price { get; set; }
         public decimal Weight { get; set; }
         public bool Silvered { get; set; }
         public bool Proficient { get; set; }

@@ -8,5 +8,6 @@ namespace CharacterGeneratorLibrary
 {
     public class BackgroundModel
     {
+
     }
 }

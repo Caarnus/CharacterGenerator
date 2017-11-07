@@ -16,6 +16,7 @@ namespace CharacterGeneratorLibrary
         public int StrengthRequirement { get; set; }
         public bool StealthImpaired { get; set; }
         public decimal Weight { get; set; }
+        public int Price { get; set; }
         public int DonTime { get; set; }
         public int DoffTime { get; set; }
         public bool Proficient { get; set; }

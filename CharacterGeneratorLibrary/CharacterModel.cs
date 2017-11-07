@@ -64,7 +64,7 @@ namespace CharacterGeneratorLibrary
         public string AlliesAndOrgFilePath { get; set; }
         public string AlliesAndOrganizations { get; set; }
         public List<FeatureModel> AdditionalFeatures { get; set; } = new List<FeatureModel>();
-        public List<Items> ItemList { get; set; } = new List<Items>();
+        public List<ItemModel> ItemList { get; set; } = new List<ItemModel>();
         public string SpellCastingClass { get; set; }
         public AttributeModel SpellCastingAbility { get; set; } = new AttributeModel();
         public int SpellSaveDC { get; set; }
