@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class SpellModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public int Level { get; set; }
         public int CastTime { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CharacterGeneratorLibrary
 {
-    public class RaceModel
+    public class SubraceModel
     {
         public int IdNum { get; set; }
         public string Name { get; set; }
@@ -16,14 +16,10 @@ namespace CharacterGeneratorLibrary
         public int IntPlus { get; set; }
         public int WisPlus { get; set; }
         public int ChaPlus { get; set; }
-        public int LifeExpectancy { get; set; }
-        public char Size { get; set; }
-        public int Speed { get; set; }
         public VisionModel VisionType { get; set; } = new VisionModel();
         public string DescPhysical { get; set; }
         public string DescAlign { get; set; }
         public string DescAttitude { get; set; }
-        public List<SubraceModel> SubraceList { get; set; } = new List<SubraceModel>();
         public List<LanguageModel> LanguageList { get; set; } = new List<LanguageModel>();
         public List<SkillModel> SkillProficiencyList { get; set; } = new List<SkillModel>();
         public List<WeaponModel> WeaponProficiencyList { get; set; } = new List<WeaponModel>();

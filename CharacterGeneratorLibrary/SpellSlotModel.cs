@@ -8,8 +8,8 @@ namespace CharacterGeneratorLibrary
 {
     public class SpellSlotsModel
     {
-        public int Id { get; set; }
-        public int Class { get; set; }
+        public int IdNum { get; set; }
+        public ClassModel Class { get; set; } = new ClassModel();
         public int ClassLevel { get; set; }
         public int SpellsKnown { get; set; }
         public int Level0Slots { get; set; }

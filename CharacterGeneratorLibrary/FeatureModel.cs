@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class FeatureModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public string TiedTo { get; set; }
         public int Level { get; set; }

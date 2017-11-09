@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class WeaponModel
     {
+        public int IdNum { get; set; }
         public string Type { get; set; }
         public string WeaponClass { get; set; }
         public bool Ranged { get; set; }

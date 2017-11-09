@@ -8,7 +8,8 @@ namespace CharacterGeneratorLibrary
 {
     public class ClassLevelModel
     {
-        public List<ClassModel> ClassType { get; set; } = new List<ClassModel>();
-        public List<int> LevelList { get; set; } = new List<int>();
+        public int idNum { get; set; }
+        public ClassModel ClassType { get; set; } = new ClassModel();
+        public int Level { get; set; }
     }
 }

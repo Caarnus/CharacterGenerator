@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CharacterGeneratorLibrary
 {
-    public class ProficiencyBonusModel
+    public class DiceModel
     {
         public int IdNum { get; set; }
-        public int TotalLevel { get; set; }
-        public int BonusAmount { get; set; }
+        public int Side { get; set; }
+        public int NumberRolled { get; set; }
     }
 }

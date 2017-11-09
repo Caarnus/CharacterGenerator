@@ -65,7 +65,7 @@ namespace CharacterGeneratorLibrary
         public string AlliesAndOrganizations { get; set; }
         public List<FeatureModel> AdditionalFeatures { get; set; } = new List<FeatureModel>();
         public List<ItemModel> ItemList { get; set; } = new List<ItemModel>();
-        public string SpellCastingClass { get; set; }
+        public ClassModel SpellCastingClass { get; set; } = new ClassModel();
         public AttributeModel SpellCastingAbility { get; set; } = new AttributeModel();
         public int SpellSaveDC { get; set; }
         public int SpellAttackBonus { get; set; }

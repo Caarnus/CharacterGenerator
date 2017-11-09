@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class ToolModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public string Class { get; set; }
         public int Cost { get; set; }

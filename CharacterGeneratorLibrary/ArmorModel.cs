@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class ArmorModel
     {
+        public int IdNum { get; set; }
         public string Type { get; set; }
         public string Class { get; set; }
         public int Cost { get; set; }

@@ -11,8 +11,7 @@ namespace CharacterGeneratorLibrary
         public int AttackId { get; set; }
         public string AttackName { get; set; }
         public string AttackSource { get; set; }
-        public int DiceSides { get; set; }
-        public int NumberDice { get; set; }
+        public DiceModel DiceRoll { get; set; } = new DiceModel();
         public DamageModel DamageType { get; set; }
     }
 }

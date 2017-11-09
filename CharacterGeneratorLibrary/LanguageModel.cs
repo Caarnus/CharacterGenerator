@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class LanguageModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public string TypicalSpeakerList { get; set; }
         public string Script { get; set; }

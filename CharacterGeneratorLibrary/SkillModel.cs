@@ -8,8 +8,9 @@ namespace CharacterGeneratorLibrary
 {
     public class SkillModel
     {
-        public string SkillName { get; set; }
-        public string GovenringAttrib { get; set; }
+        public int IdNum { get; set; }
+        public string Name { get; set; }
+        public AttributeModel GovenringAttrib { get; set; } = new AttributeModel();
         public bool Advantage { get; set; }
         public string Special { get; set; }
         public bool Proficient { get; set; }

@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class SavingThrowModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public AttributeModel Attribute { get; set; } = new AttributeModel();
         public bool Advantage { get; set; }

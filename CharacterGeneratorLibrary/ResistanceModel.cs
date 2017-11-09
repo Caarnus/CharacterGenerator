@@ -8,8 +8,8 @@ namespace CharacterGeneratorLibrary
 {
     public class ResistanceModel
     {
-        public int ResistId { get; set; }
-        public string DamageType { get; set; }
+        public int IdNum { get; set; }
+        public DamageTypeModel DamageType { get; set; } = new DamageTypeModel();
         public string Condition { get; set; }
         public decimal ResistAmount { get; set; }
     }

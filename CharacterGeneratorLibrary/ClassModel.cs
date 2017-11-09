@@ -8,11 +8,12 @@ namespace CharacterGeneratorLibrary
 {
     public class ClassModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
-        public string HitDice { get; set; }
+        public DiceModel HitDice { get; set; } = new DiceModel();
         public int StartingHealth { get; set; }
         public int DefaultHPPerLevel { get; set; }
-        public string DiceHPPerLevel { get; set; }
+        public DiceModel DiceHPPerLevel { get; set; } = new DiceModel();
         public List<ArmorModel> ArmorList { get; set; } = new List<ArmorModel>();
         public List<WeaponModel> WeaponList { get; set; } = new List<WeaponModel>();
         public List<ToolModel> ToolList { get; set; } = new List<ToolModel>();

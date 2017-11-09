@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class ArchetypeModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public string Class { get; set; }
         public List<FeatureModel> FeatureList { get; set; } = new List<FeatureModel>();

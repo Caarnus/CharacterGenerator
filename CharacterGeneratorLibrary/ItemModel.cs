@@ -8,6 +8,7 @@ namespace CharacterGeneratorLibrary
 {
     public class ItemModel
     {
+        public int IdNum { get; set; }
         public string Name { get; set; }
         public int ValueInCopper { get; set; }
         public decimal Weight { get; set; }
