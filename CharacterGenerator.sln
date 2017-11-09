@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterGeneratorUI", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterGeneratorLibrary", "CharacterGeneratorLibrary\CharacterGeneratorLibrary.csproj", "{C505BC23-2CBC-4250-8764-861EEB46D3B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScripts", "SQLScripts", "{17B7D9B1-6529-4F5F-87EA-F8069CCE25DE}"
+	ProjectSection(SolutionItems) = preProject
+		SQLScrips\character_gen-classLibTableCreation.sql = SQLScrips\character_gen-classLibTableCreation.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
