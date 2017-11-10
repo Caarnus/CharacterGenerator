@@ -12,6 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScripts", "SQLScripts", 
 		SQLScrips\character_gen-classLibTableCreation.sql = SQLScrips\character_gen-classLibTableCreation.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource", "Resource", "{7C5B63D3-0160-4479-9D0F-5F8229C213E8}"
+	ProjectSection(SolutionItems) = preProject
+		Resource\background.jpg = Resource\background.jpg
+		Resource\dragons-head.png = Resource\dragons-head.png
+		Resource\icon.ico = Resource\icon.ico
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
